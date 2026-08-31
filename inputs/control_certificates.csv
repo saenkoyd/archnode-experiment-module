@@ -1,0 +1,5 @@
+level,dominator,dominated,boundary_signature,neighbor_compatibility,trace_elements,mandatory_constraints,transferred_characteristics,R
+A,A2,A3,0,0,0,1,0,0
+B,B2,B1,0,0,0,1,0,0
+B,B2,B3,0,0,0,1,0,0
+C,C2,C1,1,1,1,1,1,1

@@ -1,0 +1,13 @@
+regime,baseline,n_paired,excluded_infeasible,mean_regret_reduction,bootstrap_ci95_low,bootstrap_ci95_high,full_better_count,tie_count,full_worse_count,top1_rate_lift,feasibility_rate_lift
+no,local-greedy,0,30,,,,0,0,0,1.000000,1.000000
+no,feasible-additive-no-trace,30,0,0.000000,0.000000,0.000000,0,30,0,0.000000,0.000000
+no,unsafe-pareto,30,0,0.009565,-0.015899,0.039443,4,24,2,0.200000,0.000000
+medium,local-greedy,0,30,,,,0,0,0,1.000000,1.000000
+medium,feasible-additive-no-trace,30,0,0.022937,0.000908,0.051074,4,26,0,0.133333,0.000000
+medium,unsafe-pareto,30,0,0.016340,-0.002749,0.037014,5,24,1,0.200000,0.000000
+strong,local-greedy,0,30,,,,0,0,0,1.000000,1.000000
+strong,feasible-additive-no-trace,30,0,0.081607,0.029730,0.136133,15,13,2,0.566667,0.000000
+strong,unsafe-pareto,30,0,0.023244,-0.003935,0.050790,7,21,2,0.300000,0.000000
+conflict,local-greedy,0,30,,,,0,0,0,1.000000,1.000000
+conflict,feasible-additive-no-trace,30,0,0.071709,0.017544,0.132074,10,17,3,0.433333,0.000000
+conflict,unsafe-pareto,30,0,0.032664,-0.018228,0.101202,7,18,5,0.400000,0.000000

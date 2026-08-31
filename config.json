@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "master_seed": 20260827,
+  "criterion_weights": [0.4, 0.3, 0.3],
+  "control": {
+    "level_weights": [0.3333333333333333, 0.3333333333333333, 0.3333333333333333],
+    "rho": 0.4,
+    "epsilon": 1e-12,
+    "max_iterations": 250
+  },
+  "batch": {
+    "replicates_per_regime": 30,
+    "levels": 4,
+    "alternatives_per_level": 8,
+    "epsilon": 1e-10,
+    "max_iterations": 200,
+    "regimes": {
+      "no": {"rho": 0.0, "trace_scale": 0.0, "conflict_probability": 0.0},
+      "medium": {"rho": 0.2, "trace_scale": 0.15, "conflict_probability": 0.0},
+      "strong": {"rho": 0.4, "trace_scale": 0.45, "conflict_probability": 0.0},
+      "conflict": {"rho": 0.35, "trace_scale": 0.40, "conflict_probability": 0.32}
+    }
+  }
+}

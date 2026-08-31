@@ -1,0 +1,17 @@
+{
+  "local_fronts": {"A": ["A1", "A2"], "B": ["B2"], "C": ["C2", "C3"]},
+  "transfer_sets": {"A": ["A1", "A2", "A3"], "B": ["B1", "B2", "B3"], "C": ["C2", "C3"]},
+  "global_front": ["S1", "S2", "S3"],
+  "full_space_size": 27,
+  "transfer_space_size": 18,
+  "oracle_feasible_states": 5,
+  "full_method_feasible_states": 3,
+  "local_greedy_state": ["A1", "B2", "C3"],
+  "additive_state": "S3",
+  "additive_q0": 0.7714,
+  "unsafe_pareto_state": "S1",
+  "unsafe_pareto_recall": 0.3333333333333333,
+  "full_method_state": "S2",
+  "oracle_state": "S2",
+  "full_method_q": 0.777383
+}
