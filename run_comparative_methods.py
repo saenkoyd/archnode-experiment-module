@@ -8,9 +8,9 @@ standard library.
 
 Run from the repository root:
 
-    python3 experiment/run_comparative_methods.py
+    python3 run_comparative_methods.py
 
-By default, five files are written to ``experiment/results``.  Use
+By default, five files are written to ``results``.  Use
 ``--output-dir`` to verify the calculation without changing that directory.
 """
 

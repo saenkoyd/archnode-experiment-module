@@ -49,7 +49,7 @@ def main() -> None:
         print("Выполняется дополнительное сравнение TOPSIS/VIKOR...", flush=True)
         run("run_comparative_methods.py")
     print(
-        "Анализ завершён. Результаты сохранены в experiment/results.",
+        "Анализ завершён. Результаты сохранены в results.",
         flush=True,
     )
 
